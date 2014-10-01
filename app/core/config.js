@@ -12,6 +12,7 @@ var config_data = {
         'custom_ip': true,
         'user_field': 'USERXXXX',
         'pass_field': 'PSWDXXXX',
+        'custom_ip': 'true',
         'interval': 3000, // Set interval in miliseconds to refresh data
         'queue_interval': 3000, // Set interval in miliseconds to refresh queue data
         'route_update_timeout': 15000, // Maximum time in miliseconds to wait for an update-route
