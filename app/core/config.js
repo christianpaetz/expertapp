@@ -9,12 +9,13 @@ var config_data = {
     'cfg': {
         'app_name': 'Z-Wave',
         'app_version': '0.1',
+        'custom_ip': true,
         'user_field': 'USERXXXX',
         'pass_field': 'PSWDXXXX',
         'interval': 3000, // Set interval in miliseconds to refresh data
         'queue_interval': 3000, // Set interval in miliseconds to refresh queue data
         'route_update_timeout': 15000, // Maximum time in miliseconds to wait for an update-route
-        'server_url': 'http://zwave.dyndns.org:8083', // Remote JSON
+        'server_url': '', // Remote JSON
         'update_url': '/ZWaveAPI/Data/', // Url for update (refresh data)
         'store_url': '/ZWaveAPI/Run/', // Url for store data
         'restore_url': '/ZWaveAPI/Restore', // Url to restore backup
